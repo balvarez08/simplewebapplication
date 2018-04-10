@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "../Scripts/",
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "types": ["node", "jasmine"]
+  },
+  "compileOnSave": true,
+  "include": [ "app/**/*.ts",
+    "main.ts",	
+    "app/**/*.spec.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "../Scripts",
+    "**/*.d.ts"
+  ]
+}
